@@ -18,7 +18,7 @@ function Navbar({ showMenuHandler, showMenu }) {
     },
     {
       id: 2,
-      link: "",
+      link: "/branch",
       title: "شعبه",
       icon: <BiHomeHeart />,
       children: [

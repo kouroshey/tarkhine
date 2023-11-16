@@ -30,7 +30,7 @@ function HeroSlider({ data, button }) {
           <img
             src={slide.image}
             alt="Slider_Image"
-            className="w-full h-full absolute left-0 top-0"
+            className="w-full h-full absolute left-0 top-0 object-cover"
           />
           <div className="relative w-full h-full z-10 flex flex-col items-center justify-center gap-10 md:gap-20 bg-black/50 text-center">
             {slide.title && (
